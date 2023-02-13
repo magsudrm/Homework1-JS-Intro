@@ -1,11 +1,4 @@
-function DarkMode(){
-    document.body.style.backgroundColor ="black";
-    document.body.style.color ="white";
-    var element=document.getElementById("demo");
-}
-
 var saat= new Date().getHours();
-console.log(saat);
 if(saat>=6 && saat<=12){
     document.body.style.backgroundColor ='grey'
     document.body.style.color ="white";
@@ -25,7 +18,3 @@ else{
     document.body.style.color ="white";
     alert("Good Night")
 }
-
-var radius=5;
-var sahe= Math.PI*radius;
-console.log(sahe);
